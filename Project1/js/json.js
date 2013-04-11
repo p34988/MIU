@@ -1,7 +1,7 @@
 /* 
-	Warren Morris 
-	VFW 1303
-	Project 4
+	Warren Morris
+	MIU 1304
+	Project 1
 */
 
 var json = {
