@@ -55,5 +55,155 @@ var json = {
 		"time": ["Time:","14"],
 		"comments": ["Comments:","No gear adjustment issues."]
 		
+	},
+	"bike6": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike7": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","BMX"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike8": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Mountain"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike9": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike10": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike11": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","BMX"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike12": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Cruiser"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike13": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Mountain"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike14": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","BMX"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike15": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","BMX"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike16": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike17": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Cruiser"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike18": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike19": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
+	},
+	"bike20": {
+
+		"assembler": ["Assembler:","Ethan"],
+		"date": ["Date:","2010-04-12"],
+		"type": ["Type:","Road"],
+		"marked": ["Marked:","no"],
+		"time": ["Time:","61"],
+		"comments": ["Comments:","I'm not sure how to use a wrench."]
+		
 	}
 }
