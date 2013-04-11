@@ -1,0 +1,213 @@
+/* 
+	Warren Morris 
+	VFW 1303
+	Project 4
+*/
+
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+a.button {
+   border-top: 1px solid #7b7b7b;
+   padding: 3px 15px 3px 10px;
+   border-radius: 50px 21px;
+   font-size: 16px;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-right: 5px;
+   color: #959595;
+   border: solid 1px #434343;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#282828));
+   background: -moz-linear-gradient(top,  #525252,  #282828);
+}
+
+a.button2 {
+   border-top: 1px solid #5d6f7c;
+   padding: 3px 15px 3px 10px;
+   border-radius: 50px 21px;
+   font-size: 16px;
+   text-decoration: none;
+   vertical-align: middle;
+   color: #959595;
+   border: solid 1px #434343;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#282828));
+   background: -moz-linear-gradient(top,  #525252,  #282828);
+}
+
+a.button3 {
+   border-top: 1px solid #5d6f7c;
+   padding: 3px 15px 3px 10px;
+   border-radius: 50px 21px;
+   font-size: 16px;
+   text-decoration: none;
+   vertical-align: middle;
+   text-align: center;
+   color: #96c0ff;
+   border: solid 1px #4d97ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0092ff), to(#005697));
+   background: -moz-linear-gradient(top,  #0092ff,  #005697);
+}
+
+body {
+	background-color: #333;
+	color: #888;
+	font-family: Tahoma;
+}
+
+div.req {
+	-webkit-text-stroke: .5px #386600;
+	color: #7de200;
+}
+
+fieldset.bikefield {
+	margin-top: 5px;	
+}
+
+h1 {
+	background-color: #4178a7;
+	border-bottom: 1px solid #003563;
+	color: #dedede;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px;
+	margin:0px 0px 5px 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+input, select, textarea{
+	background-color: #777;
+	border: 1px #626262 solid; 
+	font-size: 11px; 
+	width: 95%; /* for some reason this doesnt fix the width of the date input on mobile safari */
+}
+
+input#asstime {
+	width: 75%;
+	margin-left: 15px; /* tested it on my Galaxy SIII and with the case, it is hard to get 
+						to numbers lower than 30. Moving it away from the edge a bit */
+}
+
+input#submit {
+	margin-left: 5px;
+	background: #ecec00;
+	border-radius: 50px 21px;
+	font-weight: bold;
+	color: #3f3f32;
+	border: solid 1px #d9c20e;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbff00), to(#939500));
+	background: -moz-linear-gradient(top,  #fbff00,  #939500);
+}
+
+input#marked {
+	width:	50px;
+}
+
+legend {
+	-webkit-text-stroke: .5px #5a8cff;
+	color: #334d89;
+	margin-left: 5px;
+}
+
+p {
+	color: #0085ff;
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+	color: #909090;	
+}
+
+label#asstext {
+	margin-left: 1.5em; /* bumps the range value label away from the slider */
+}
+
+li {
+	padding: 5px;
+	list-style: none;
+}
+
+li.altcolor {
+	border-bottom: 3px;
+	border-bottom-color: black;
+	background-color: #888;
+	color: #222;
+}
+
+li.deleteli {
+	color: #5d0000;	
+	text-align: right;
+}
+
+li.marked {
+	display: inline;
+}
+
+ul#errors {
+	color: red;
+	background: #ffd4d4;
+	margin: 5px;
+}
+
+#bikes {
+	margin-top: 20px;
+}
+
+#clear, #displayLink, #ab {
+	position: relative; 
+    top: 7px;
+    left: 5px;
+}
+
+#submit {
+	padding: 10px 0px;
+	margin-bottom: 5px;
+}
+
+.tilt { /* messing around with rotating an image. from my understanding IE only supports 4 positions 
+		and seeing as we are doing nothing with IE, i didnt see it necessary to bother supporting it. 
+		Not to mention this app has nothing to do with downloading a different browser, which is 
+		pretty much the only acceptable use for IE.*/
+	-webkit-transform: rotate(45deg); 
+	-moz-transform: rotate(45deg);   /* i wanted less of a rotation than 45deg but anything less had pixelated edges */
+	margin: 5px;
+	/* draws a shadow around the image */
+	-webkit-box-shadow: 5px -5px 7px 1px  rgba(0,0,32,0.75);
+	-moz-box-shadow: 5px -5px 7px 1px  rgba(0,0,32,0.75);
+	box-shadow: 5px -5px 7px 1px  rgba(0,0,32,0.75);
+}
+
+/* This is the part where the image is shifted around the div to fit the right image to the current bike type */
+.i1 {
+	background-image: url(../img/types.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.i2 {
+	background-image: url(../img/types.png);
+	background-position: -50px 0;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.i3 {
+	background-image: url(../img/types.png);
+	background-position: -100px 0;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.i4 {
+	background-image: url(../img/types.png);
+	background-position: -150px 0;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
